@@ -3,7 +3,7 @@ body {font-family: Arial;}
 img.image { border: 2px solid #54C03F; 
 	border-radius: 50%; }
 	
-h1, h2,{ color: green;
+h1, h2{ color: green;
 	font-variant: small-caps;} 
 	
 
@@ -13,7 +13,8 @@ h1, h2,{ color: green;
 a { color: darkgreen; 
 	font-weight: bold; 
 	text-decoration: none;}
+	
 input { border: 1px solid grey;
 	padding: 3px 5px;
-	margin-bottom: 10px;
+	margin-bottom: 10px !important;
 	border-radius: 5px; }
